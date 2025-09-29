@@ -1,0 +1,75 @@
+/* style.css common styles */
+body {
+  margin: 0;
+  background: #283048;
+  color: #2d3748;
+  font-family: 'Inter', sans-serif;
+}
+
+.view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Landing screen and chat screen spacing */
+#landing-screen,
+#chat-screen {
+  width: 100%;
+}
+
+/* Force white background and dark text for chat */
+#chat-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: #ffffff !important;
+  color: #2d3748 !important;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Spacing between landing and chat view */
+#chat-screen {
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+/* Message styling */
+.message {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: #2d3748 !important;
+}
+
+/* Option buttons */
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options li {
+  margin: 0.5rem 0;
+}
+
+.options button {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.options button + button {
+  margin-left: 0.5rem;
+}
+
+/* Utility */
+.hidden {
+  display: none;
+}
