@@ -1,0 +1,11 @@
+
+/* Force dark text for chat messages */
+#chat-screen {
+  color: #2d3748;
+}
+#chat-container {
+  color: #2d3748;
+}
+.message {
+  color: #2d3748;
+}
